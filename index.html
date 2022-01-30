@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Photo Gallery</title>
+</head>
+<body>
+<main class="container">
+    <div class="images">
+        <div class="item">
+            <img src="img/img100_hq.jpg" class="img" alt="Изображение 1">
+            <p class="img__descr">1. Гроты марроканского побережья</p>
+        </div>
+        <div class="item">
+            <img src="img/img101_hq.jpg" class="img" alt="Изображение 2">
+            <p class="img__descr">2. Тропический остров с высоты полета</p>
+        </div>
+        <div class="item">
+            <img src="img/img102_hq.jpg" class="img" alt="Изображение 3">
+            <p class="img__descr">3. Ледяные пещеры</p>
+        </div>
+        <div class="item">
+            <img src="img/img103_hq.jpg" class="img" alt="Изображение 4">
+            <p class="img__descr">4. Озеро в Алтайском крае</p>
+        </div>
+        <div class="item">
+            <img src="img/img104_hq.jpg" class="img" alt="Изображение 5">
+            <p class="img__descr">5. Высокогорье в Тибете</p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <input type="button" class="slider__button slider__button-prev" value="<" id="prev">
+        <input type="button" class="slider__button slider__button-next" value=">" id="next">
+    </div>
+    <div class="dots__radio" id="radioDots">
+        <input type="radio" name="dots" value="1">
+        <input type="radio" name="dots" value="2">
+        <input type="radio" name="dots" value="3">
+        <input type="radio" name="dots" value="4">
+        <input type="radio" name="dots" value="5">
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
